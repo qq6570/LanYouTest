@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NSString+ZYString.h"
 
 FOUNDATION_EXPORT double LanYouTestVersionNumber;
 FOUNDATION_EXPORT const unsigned char LanYouTestVersionString[];

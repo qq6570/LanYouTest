@@ -7,7 +7,7 @@
 //
 
 #import "LYViewController.h"
-
+#import <LanYouTest/NSString+ZYString.h>
 @interface LYViewController ()
 
 @end
@@ -19,7 +19,9 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
-
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [NSString test];
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
